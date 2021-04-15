@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 
 const Layout = ({ children, title = 'This is the default title' }) => {
     return (
-        <div>
+        <div className="flex flex-col h-screen">
         <Head>
           <title>{ title }</title>
           <meta charSet='utf-8' />
@@ -17,9 +17,9 @@ const Layout = ({ children, title = 'This is the default title' }) => {
             <div className="container">{children}</div>
         </main>
     
-        <footer>
+        <div className="bg-gray-300">
           {'我是底部'}
-        </footer>
+        </div>
       </div>
     );
 }

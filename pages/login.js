@@ -61,6 +61,9 @@ const LoginPage = () => {
           <a>Forget password</a>
         </Link>
       </form>
+      <div className="card-action col s12">
+        <p>New here? <Link href="/signup">Sign up</Link></p>
+      </div>
     </>
   );
 };
