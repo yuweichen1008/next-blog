@@ -1,16 +1,18 @@
 {
-    "tasks": [
+    "tickers": [
       {
         "id": 1,
-        "text": "Doctors Appointment",
-        "day": "Feb 5th at 2:30pm",
-        "reminder": true
+        "ticker": "APPL",
+        "open": "300.2",
+        "close": "302.3",
+        "day": "Feb 5th at 2:30pm"
       },
       {
         "id": 2,
-        "text": "Meeting at School",
-        "day": "Feb 6th at 1:30pm",
-        "reminder": true
-      }
+        "ticker": "TSLA",
+        "open": "700.2",
+        "close": "800.3",
+        "day": "Feb 5th at 2:30pm"
+      },
     ]
   }

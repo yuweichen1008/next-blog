@@ -13,14 +13,18 @@ const Navbar = () => {
     // };
     
     return (
-        <nav className="flex justify-between ">
-            <p>My App</p>
-            <div className="flex">
-                <Link href='/'><a>家目錄</a></Link> |
-                <Link href='/stock'><a>股票分析</a></Link> |
-                <Link href='/crypto'><a>虛擬貨幣</a></Link>
-                <Link href='/login'><a>Login</a></Link>
+        <nav className="flex items-center justify-between p-6 bg-blue-400">
+            <div className="flex items-center flex-shrink-0 mr-6 text-white">
+                <Link href='/' className="text-xl font-bold">Coreix</Link>
+            </div>
+            <div className="flex-grow block w-full ">
+                <Link href='/stock'><a className="ml-4 text-gray-800 hover:text-white">股票分析</a></Link>
+                <Link href='/crypto'><a className="ml-4 text-gray-800 hover:text-white"> 虛擬貨幣</a></Link>
+                <Link href='/hacker'><a className="ml-4 text-gray-800 hover:text-white">HackerNews</a></Link>
                 {/* <button onClick={handleLogout}>Logout</button> */}
+            </div>
+            <div>
+                <Link href='/login'><a className="ml-4 text-gray-800 hover:text-white">Login</a></Link>
             </div>
         </nav>
     );

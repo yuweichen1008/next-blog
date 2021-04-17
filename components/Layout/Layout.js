@@ -14,11 +14,15 @@ const Layout = ({ children, title = 'This is the default title' }) => {
           <Navbar />
         </header>
         <main>
-            <div className="container">{children}</div>
+            <div className="container">
+              {children}
+            </div>
         </main>
     
-        <div className="bg-gray-300">
-          {'我是底部'}
+        <div className="py-8 bg-gray-100 footer-1 sm:py-12">
+            <div class="container mx-auto px-4">
+              
+            </div>
         </div>
       </div>
     );

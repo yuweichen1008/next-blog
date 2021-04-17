@@ -64,7 +64,7 @@ const Chart = ({ data }) => {
   return (
     <div className="flex flex-col border rounded">
       <div className="ml-5">{renderPrice()}</div>
-      <div className="absolute inset-x-0 bottom-0">
+      <div className="inset-x-0 bottom-0 ">
         <canvas ref={chartRef} id="myChart" width={250} height={250}></canvas>
       </div>
 
