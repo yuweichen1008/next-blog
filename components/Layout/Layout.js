@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Head from 'next/head'
 import Navbar from './Navbar'
 
@@ -20,8 +19,8 @@ const Layout = ({ children, title = 'This is the default title' }) => {
         </main>
     
         <div className="py-8 bg-gray-100 footer-1 sm:py-12">
-            <div class="container mx-auto px-4">
-              
+            <div className="container px-4 mx-auto">
+              Footer
             </div>
         </div>
       </div>

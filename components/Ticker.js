@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Ticker = () => {
+const Ticker = ({ stocks}) => {
     return (
         <div>
-            
+            {stocks.map((stock, index) => (
+                <Task key={index} task={stock} onDelete={onDelete} onToggle={onToggle} />
+            ))}
         </div>
     )
 }

@@ -21,6 +21,7 @@ const Navbar = () => {
                 <Link href='/stock'><a className="ml-4 text-gray-800 hover:text-white">股票分析</a></Link>
                 <Link href='/crypto'><a className="ml-4 text-gray-800 hover:text-white"> 虛擬貨幣</a></Link>
                 <Link href='/hacker'><a className="ml-4 text-gray-800 hover:text-white">HackerNews</a></Link>
+                <Link href='/view'><a className="ml-4 text-gray-800 hover:text-white">TW stock</a></Link>
                 {/* <button onClick={handleLogout}>Logout</button> */}
             </div>
             <div>
