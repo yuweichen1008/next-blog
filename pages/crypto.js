@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import Layout from '../components/Layout/Layout'
 const crypto = () => {
     useEffect(() => {
         const getPrice = async () => {
@@ -13,8 +14,11 @@ const crypto = () => {
         // return data
     }
     return (
-        <>   
-        </>
+        <Layout>
+            <div>
+                Null
+            </div>
+        </Layout>
     )
 }
 

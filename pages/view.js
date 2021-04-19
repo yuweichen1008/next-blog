@@ -1,4 +1,5 @@
 import Layout from "../components/Layout/Layout";
+import ChartExample from '../utils/chartExample'
 
 const stock = () => {
     return (
@@ -12,6 +13,9 @@ const stock = () => {
                 <button class="bg-red-400 hover:bg-red-300 rounded text-white p-2 pl-4 pr-4">
                         <p class="font-semibold text-xs">Search</p>
                 </button>
+            </div>
+            <div>
+                <ChartExample />
             </div>
             </div>
         </Layout>
