@@ -44,25 +44,7 @@ const Stock = () => {
                   </div>
               </div>
               <div className="flex-1 w-full overflow-y-auto bg-gray-100 border border-blue-500 t-40 l-80">
-                  <div className="">
-                      <div className="grid grid-cols-4 gap-4">
-                      {/* {(!isLoading)? <p>Graph</p> : <div>Loading....</div>} */}
-                        <div className="flex justify-between col-span-4 bg-green-100">
-                          <p>Dashboard</p> 
-                          <button>
-                            Add to watch list
-                          </button>
-                        </div>
-                        <div className="bg-green-200">1</div>
-                        <div className="bg-green-300">2</div>
-                        <div className="bg-green-400">3</div>
-                        <div className="bg-green-400">4</div>
-                        <div className="col-span-3 bg-green-500">5</div>
-                        <div className="bg-green-600">6</div>
-                        <div className="bg-green-700">7</div>
-                        <div className="col-span-3 bg-green-800">8</div>
-                      </div>
-                  </div>
+                 
               </div> 
           </div>
           
